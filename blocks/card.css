@@ -6,7 +6,30 @@
   object-fit: cover;
   height: 413px;
   width: 413px;
-  border-radius: 2%;
+  border-radius: 8px;
+}
+
+.card__footer {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 12px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card__caption {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 350px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.card__title {
+  max-width: 250px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 627px) {
@@ -14,16 +37,4 @@
     width: 288px;
     height: 288px;
   }
-}
-
-.card__footer {
-  justify-content: space-between;
-  display: flex;
-}
-
-.card__caption {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 210px;
 }

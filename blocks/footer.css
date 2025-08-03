@@ -1,16 +1,13 @@
 .footer {
   justify-content: center;
   line-height: 100%;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  height: 16px;
-  width: 104px;
   display: flex;
   margin-top: 60px;
   margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: row;
-  word-spacing: -1px;
 }
