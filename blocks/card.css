@@ -38,3 +38,10 @@
     height: 288px;
   }
 }
+
+@media screen and (max-width: 395px) {
+  .card__img {
+    width: 288px;
+    height: 288px;
+  }
+}

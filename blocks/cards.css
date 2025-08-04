@@ -17,10 +17,17 @@
 }
 
 .profile__new-post:hover {
-  background-color: #1877f2;
+  background-color: rgba(33, 33, 33, 0.8);
 }
 
 @media screen and (max-width: 627px) {
+  .card__img {
+    width: 288px;
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 395px) {
   .card__img {
     width: 288px;
     height: 288px;
