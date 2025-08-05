@@ -37,11 +37,21 @@
     width: 288px;
     height: 288px;
   }
+
+  .card {
+    max-width: 288px;
+  }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 375px) {
   .card__img {
     width: 288px;
     height: 288px;
+  }
+
+  .card__caption {
+    max-width: 260px;
+    font-size: 16px;
+    line-height: 100%;
   }
 }

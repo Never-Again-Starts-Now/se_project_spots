@@ -25,9 +25,14 @@
     width: 288px;
     height: 288px;
   }
+
+  .page__section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 320px) {
   .card__img {
     width: 288px;
     height: 288px;

@@ -123,10 +123,17 @@
 
   .profile__column {
     margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profile__edit-button {
+    margin: auto;
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 320px) {
   .profile {
     flex-direction: column;
     display: flex;
@@ -158,5 +165,18 @@
 
   .profile__column {
     margin: 0 0 20px;
+  }
+
+  .profile__edit-button {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 16px;
+    display: flex;
+    width: 107.34px;
+    height: 16px;
+    border-radius: 90px;
+    opacity: 70%;
+    gap: 8px;
+    margin: auto;
   }
 }
