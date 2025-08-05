@@ -1,5 +1,4 @@
 .cards {
-  background-color: #fcf5e5;
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
@@ -7,17 +6,7 @@
   justify-content: center;
   padding-top: 20px;
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
-}
-
-.page__section {
-  max-width: 1280px;
-  box-sizing: border-box;
-  position: relative;
-  margin: 0 auto;
-}
-
-.profile__new-post:hover {
-  background-color: rgba(33, 33, 33, 0.8);
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 627px) {
@@ -33,8 +22,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .card__img {
-    width: 288px;
-    height: 288px;
+  .cards {
+    padding-bottom: 20px;
   }
 }
