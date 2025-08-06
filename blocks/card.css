@@ -2,6 +2,21 @@
   max-width: 413px;
 }
 
+.card__like-button {
+  padding: 0;
+  border: none;
+  width: 23px;
+  height: 20px;
+  background-image: url(../images/like-icon.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card__like-button:hover {
+  opacity: 1;
+}
+
 .card__img {
   object-fit: cover;
   height: 413px;
@@ -40,11 +55,6 @@
 }
 
 @media screen and (max-width: 375px) {
-  .card__img {
-    width: 288px;
-    height: 288px;
-  }
-
   .card__caption {
     max-width: 260px;
     font-size: 16px;

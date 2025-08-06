@@ -23,7 +23,7 @@
       </header>
       <div class="page__content">
         <main class="content">
-          <section class="profile">
+          <section class="profile page__section">
             <img
               src="./images/avatar.jpg"
               alt="Bessie Coleman"
@@ -33,14 +33,15 @@
               <h1 class="profile__name">Bessie Coleman</h1>
               <p class="profile__description">Civil Aviator</p>
               <button
-                class="profile__edit-button"
+                class="profile__edit-icon"
                 type="button"
                 aria-label="Edit Profile"
               >
-                <img src="./images/edit-button.svg" alt="Edit Button Image" />
+                <img src="./images/Edit-Icon.svg" alt="Edit Icon" /> Edit
+                Profile
               </button>
             </div>
-            <button class="profile__new-post">New Post</button>
+            <button class="profile__new-post" type="button">New Post</button>
           </section>
           <section class="cards page__section">
             <div class="card">
@@ -50,8 +51,8 @@
                 alt="Val Thorens"
               />
               <div class="card__footer">
-                <h1 class="card__caption">Val Thorens</h1>
-                <button class="profile__like-button" type="button"></button>
+                <h2 class="card__caption">Val Thorens</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
             <div class="card">
@@ -62,7 +63,7 @@
               />
               <div class="card__footer">
                 <h2 class="card__caption">Restaurant Terrace</h2>
-                <button class="profile__like-button" type="button"></button>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
             <div class="card">
@@ -72,8 +73,8 @@
                 alt="An Outdoor Cafe"
               />
               <div class="card__footer">
-                <h3 class="card__caption">An Outdoor Cafe</h3>
-                <button class="profile__like-button" type="button"></button>
+                <h2 class="card__caption">An Outdoor Cafe</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
             <div class="card">
@@ -83,10 +84,10 @@
                 alt="A Very Long Bridge Over The Forest"
               />
               <div class="card__footer">
-                <h4 class="card__caption">
+                <h2 class="card__caption">
                   A Very Long Bridge Over The Whitewater River Below
-                </h4>
-                <button class="profile__like-button" type="button"></button>
+                </h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
             <div class="card">
@@ -96,8 +97,8 @@
                 alt="Tunnel With Morning Light"
               />
               <div class="card__footer">
-                <h5 class="card__caption">Tunnel With Morning Light</h5>
-                <button class="profile__like-button" type="button"></button>
+                <h2 class="card__caption">Tunnel With Morning Light</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
             <div class="card">
@@ -107,13 +108,15 @@
                 alt="Mountain House"
               />
               <div class="card__footer">
-                <h6 class="card__caption">Mountain House</h6>
-                <button class="profile__like-button" type="button"></button>
+                <h2 class="card__caption">Mountain House</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </div>
           </section>
         </main>
-        <p class="footer">2025 &copy; Spots</p>
+        <footer class="footer">
+          <p class="footer__copyright">2025 &copy; Spots</p>
+        </footer>
       </div>
     </div>
   </body>

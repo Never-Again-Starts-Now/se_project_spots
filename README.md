@@ -28,4 +28,4 @@ As far as improving the project, perhaps a bit more background on the topics bei
 
 GITHUB PAGES: https://never-again-starts-now.github.io/se_project_spots/
 
-https://www.loom.com/share/7850737d46cc4850875090ecdec23b44?sid=38c64179-a192-46ee-acf8-2e283ce20b7e
+https://www.loom.com/share/c4ed8ab7abb24785926a8b24e1c3025f?sid=b7c2fffc-9ca9-4317-8bc3-e0b7d76fc226
